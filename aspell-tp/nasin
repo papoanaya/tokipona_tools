@@ -1,0 +1,4 @@
+cd /opt/elbrus/pok/nacioj/ispell/ispell-3.1/languages/tp
+sort -f -u -o tp.txt nimi.txt
+buildhash tp.txt tp.aff tp.hash
+cp tp.aff tp.aff

@@ -1,0 +1,47 @@
+# nimi:         tp.aff
+# kepeken:      nimi monsi pi toki pona en nimi monsi ala pi toki pona
+# open:    1997-08-30 tan jan Lui Anaja <papoanaya@hotmail.com>
+# nanpa 2.1.
+# ante pini:
+#               Time-stamp: <2000-02-25 12:31:17 pok>
+#
+# Copyright 2013 Luis Anaya
+#
+#  This file is available on the terms of GNU General Public License
+#  (Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA).
+
+#
+#	Affix table for Esperanto
+#
+# No particular settings for ispell are necessary --
+# The default 32 MASKBITS for ispell are sufficient and
+# you may use the same ispell for toki pona and english.
+
+compoundwords on
+#allaffixes on
+
+# generic accents as used in esperanto word list
+# All other types are defined relative to this one.
+#
+defstringtype "list" "nroff" ".list" ".ascii" ".txt"
+#defstringtype "nimi linja" "nroff" ".ascii" ".txt"
+
+
+boundarychars	[---]
+
+wordchars   '
+wordchars	a   A
+wordchars   e   E
+wordchars   i   I
+wordchars   [j-p] [J-P]
+wordchars   [s-u] [S-U]
+wordchars   w   W
+
+#			Quick Reference
+#			===============
+
+prefixes
+
+suffixes
+
+# eo.aff pini

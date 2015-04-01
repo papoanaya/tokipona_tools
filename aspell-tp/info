@@ -1,0 +1,20 @@
+name_english Toki Pona
+name_native Toki Pona
+lang tp
+data-file ascii.cset
+data-file ascii.cmap
+author: 
+  name Luis Anaya
+  name-native Lui Anaja
+  email papo anaya at hot mail punto com
+  maintainer true
+copyright GPLv3
+url https://gitorious.com/~papoanaya/tp-aspell
+version 0.01-1
+complete true
+accurate true
+alias tp tokipona
+dict:
+  name tp
+  add tp
+notes experimental
